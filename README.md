@@ -23,13 +23,13 @@ The system is built for educational and research purposes, focusing on model dev
 ## 📸 Screenshots
 
 ### 1. Detection Interface
-![Detection Interface](C:\Users\amars\OneDrive\Pictures\Screenshots\detection-interface.png.png)
+![Detection Interface](<img width="1557" height="806" alt="analysis-results png" src="https://github.com/user-attachments/assets/d0b6313b-f547-4b6e-8f43-2f89b5f65ec7" />)
 
 ### 2. Image Upload & Analysis
-![Image Upload](C:\Users\amars\OneDrive\Pictures\Screenshots\image-upload.png.png)
+![Image Upload](<img width="1917" height="830" alt="image-upload png" src="https://github.com/user-attachments/assets/daf42b0e-6f75-42d6-a57d-1f31dc8b0057" />)
 
 ### AI Analysis Results
-![Analysis Results](C:\Users\amars\OneDrive\Pictures\Screenshots\analysis-results.png.png)
+![Analysis Results](<img width="1913" height="943" alt="detection-interface png" src="https://github.com/user-attachments/assets/4987216c-f3b5-42ae-837a-1b83cbaf1da3" />)
 
 ### 🩻 Multi-Modal Medical Image Classification
 
