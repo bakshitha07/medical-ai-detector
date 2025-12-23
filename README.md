@@ -29,11 +29,6 @@ The Medical Image AI Diagnostic System is a user-friendly web application that s
 - Tailwind CSS
 - JavaScript
 
-## Browser APIs
-- FileReader API
-- Blob API
-- URL API
-
 ## Backend 
 - Python
 - TensorFlow
@@ -54,16 +49,6 @@ The Medical Image AI Diagnostic System is a user-friendly web application that s
 - ONNX Runtime
 - CUDA
 
-## Data Processing
-- ImageDataGenerator
-- DICOM Support
-- Data Augmentation
-
-## Training Components
-- Adam Optimizer
-- Cross-Entropy Loss
-- Early Stopping
-- Model Checkpointing
 
 ---
 
