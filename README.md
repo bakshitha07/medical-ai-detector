@@ -1,26 +1,14 @@
-# 🏥 Medical Image AI Diagnostic System
-
-[![React](https://img.shields.io/badge/React-18.0+-61DAFB?style=flat&logo=react&logoColor=white)](https://reactjs.org/)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0+-FF6F00?style=flat&logo=tensorflow&logoColor=white)](https://tensorflow.org/)
-[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python&logoColor=white)](https://python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat)]
-
-An end-to-end deep learning web application for automated disease classification from medical images, integrating transfer-learning-based CNN models with a modern React frontend.
+# Medical Ai Detecor 
 
 ---
 
-## 📌 Overview
+## Abstract
 
-This project demonstrates the design and implementation of a full-stack AI system capable of analyzing multiple medical imaging modalities, including chest X-rays, brain MRIs, and skin lesion images, to predict disease categories with confidence scores.
-
-The system is built for educational and research purposes, focusing on model development, evaluation, and frontend–ML integration.
+The Medical Image AI Diagnostic System is a user-friendly web application that simplifies medical image analysis for healthcare professionals. It provides precise results for chest X-rays, brain MRIs, and skin lesions, showing clear confidence scores, image preparation details, and practical recommendations. Doctors can easily monitor analysis history, model performance, and patient records from a single intuitive dashboard, eliminating the need for manual initial image interpretation. Using advanced AI models like ResNet50, EfficientNet-B4, and DenseNet121, the system automatically processes uploaded images and generates detailed predictions with visual probability charts and downloadable reports. The tabbed interface offers Detection for real-time analysis, Training Pipeline for model insights, and Implementation for complete source code, creating the experience of an intelligent radiology assistant.Designed for busy clinical environments, it saves time on preliminary screenings while maintaining professional medical disclaimers that emphasize expert validation. The system transforms complex diagnostic workflows into seamless, automated processes, enabling healthcare providers to focus on patient care rather than image interpretation.
 
 ---
 
-## ✨ Key Features
-
-
-## 📸 Screenshots
+## Results
 
 ### 1. Detection Interface
 ![Detection Interface](./screenshots/Detection%20Interface.png)
@@ -31,103 +19,60 @@ The system is built for educational and research purposes, focusing on model dev
 ### AI Analysis Results
 ![Analysis Results](./screenshots/Analysis%20Results.png)
 
-### 🩻 Multi-Modal Medical Image Classification
 
-**Chest X-Ray Analysis**
-- Pneumonia  
-- COVID-19  
-- Tuberculosis  
-- Lung Cancer  
-- Normal  
+# Tech Stack
 
-**Brain MRI Analysis**
-- Glioma  
-- Meningioma  
-- Pituitary Tumor  
-- Alzheimer’s Disease  
-- Normal  
-
-**Skin Lesion Classification**
-- Melanoma  
-- Basal Cell Carcinoma  
-- Squamous Cell Carcinoma  
-- Actinic Keratosis  
-- Benign Lesions  
-
----
-
-### 🤖 AI & Machine Learning Capabilities
-- Transfer learning using pre-trained CNN architectures
-- Real-time image preprocessing and inference
-- Multi-class classification with confidence scoring
-- Modular pipeline supporting multiple imaging modalities
-- Downloadable diagnostic summary reports
-- User-friendly web interface with drag-and-drop image upload
-
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-- React.js (18+)
-- Tailwind CSS
+## Frontend
+- React
 - Lucide React
+- Tailwind CSS
+- JavaScript
 
-### Backend / Machine Learning
-- Python 3.8+
-- TensorFlow 2.x
+## Browser APIs
+- FileReader API
+- Blob API
+- URL API
+
+## Backend 
+- Python
+- TensorFlow
 - Keras
 - NumPy
-- Scikit-learn
+- scikit-learn
+- Pillow
+- OpenCV
+
+## Deep Learning Models
+- ResNet50 (X-Ray Classification)
+- EfficientNet-B4 (MRI Analysis)
+- DenseNet121 (Skin Lesion Detection)
+
+## API & Deployment
+- Flask / FastAPI
+- Docker
+- ONNX Runtime
+- CUDA
+
+## Data Processing
+- ImageDataGenerator
+- DICOM Support
+- Data Augmentation
+
+## Training Components
+- Adam Optimizer
+- Cross-Entropy Loss
+- Early Stopping
+- Model Checkpointing
 
 ---
 
-## 🧠 Model Architectures
+## Users
 
-| Imaging Type | Architecture | Classes | Validation Accuracy* |
-|-------------|--------------|---------|----------------------|
-| Chest X-Ray | ResNet50 | 5 | ~94% |
-| Brain MRI | EfficientNet-B4 | 5 | ~91% |
-| Skin Lesion | DenseNet121 | 5 | ~89% |
-
-\*Accuracy measured on validation splits of publicly available academic datasets.
+1. Radiologists 
+2. Dermatologists
+3. Emergency Doctors
 
 ---
-
-## 🏗️ Transfer Learning Pipeline
-
-Pre-trained CNN (ImageNet)
-↓
-Global Average Pooling
-↓
-Dense Layer (512, ReLU)
-↓
-Dropout (0.5)
-↓
-Softmax Output Layer
-
-
----
-
-## ⚙️ Training Configuration
-
-- Optimizer: Adam (learning rate = 0.0001)
-- Loss Function: Categorical Cross-Entropy
-- Batch Size: 32
-- Epochs: 50 (Early Stopping enabled)
-- Data Augmentation: Rotation, flipping, zoom, brightness adjustment
-
----
-
-## 🚀 Installation & Setup
-
-### Prerequisites
-- Node.js 16+
-- npm
-- Python 3.8+
-
----
-
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/bakshitha07/medical-image-ai-diagnostic-system.git
@@ -149,82 +94,6 @@ npx tailwindcss init -p
 npm start
 ```
 
-Open `http://localhost:3000` in your browser.
-
-📁 Project Structure
-medical-image-ai-diagnostic-system/
-├── src/
-│   ├── components/
-│   │   └── MedicalImageDetector.jsx
-│   ├── App.js
-│   ├── index.js
-│   └── index.css
-├── public/
-├── tailwind.config.js
-├── postcss.config.js
-├── package.json
-└── README.md
-
-🧪 Usage
-
-1.Select imaging modality (X-Ray, MRI, or Skin Lesion)
-2.Upload a medical image
-3.Run AI analysis
-4.Review predictions with confidence scores
-5.Download diagnostic summary report
-
-⚠️ Limitations
-
-Models trained on limited academic datasets
-Not validated for real clinical environments
-Performance may vary across imaging devices and populations
-
-⚕️ Medical Disclaimer
-
-This project is intended for educational and research purposes only.
-It is not a certified medical diagnostic tool and should not be used for clinical decision-making.
-
-👨‍💻 Author
-
-Bandi Akshitha
-GitHub: https://github.com/bakshitha07
-LinkedIn: https://linkedin.com/in/akshitha-b-135b32312
-Email: bakshitha7@gmail.com
-
-
-📜 License
-This project is licensed under the MIT License.
-
-⭐ Acknowledgments
-
-TensorFlow and Keras teams
-React and Tailwind CSS communities
-Public medical imaging datasets
-Research literature on transfer learning in medical imaging
-
-
-**Documentation:**
-- [TensorFlow Keras Guide](https://www.tensorflow.org/guide/keras)
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/)
-
-**Research Papers:**
-- Deep Residual Learning for Image Recognition (ResNet)
-- EfficientNet: Rethinking Model Scaling for CNNs
-- Densely Connected Convolutional Networks (DenseNet)
-
-**Datasets:**
-- ChestX-ray8 Database (NIH)
-- ISIC Skin Lesion Archive
-- BraTS Brain Tumor Dataset
-
-<div align="center">
-
-**Made with ❤️ for Healthcare AI**
-
-⭐ **Star this repository if you find it helpful!**
-
-[Report Bug](https://github.com/bakshitha07/medical-image-ai-diagnostic-system/issues) · [Request Feature](https://github.com/bakshitha07/medical-image-ai-diagnostic-system/issues)
 
 </div>
 ```
