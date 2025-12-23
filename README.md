@@ -10,14 +10,16 @@ The Medical Image AI Diagnostic System is a user-friendly web application that s
 
 ## Results
 
+## Results
+
 ### 1. Detection Interface
-![Detection Interface](<img width="1913" height="943" alt="Image" src="https://github.com/user-attachments/assets/a1be2140-1006-4b1b-bb80-2fa37e1490fa" />)
+![Detection Interface](https://raw.githubusercontent.com/bakshitha07/medical-ai-detector/main/screenshots/detection-interface.png)
 
 ### 2. Image Upload & Analysis
-![Image Upload](<img width="1917" height="830" alt="Image" src="https://github.com/user-attachments/assets/e8529397-6add-4aa1-927e-d3c0273764d8" />)
+![Image Upload](https://raw.githubusercontent.com/bakshitha07/medical-ai-detector/main/screenshots/image-upload.png)
 
 ### AI Analysis Results
-![Analysis Results](<img width="1557" height="806" alt="Image" src="https://github.com/user-attachments/assets/63976f27-84a8-4ece-908c-a7fbb9aec151" />)
+![Analysis Results](https://raw.githubusercontent.com/bakshitha07/medical-ai-detector/main/screenshots/analysis-results.png)
 
 # Tech Stack
 
